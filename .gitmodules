@@ -1,0 +1,15 @@
+[submodule "lib/litedram"]
+	path = lib/litedram
+	url = https://github.com/enjoy-digital/litedram
+[submodule "lib/liteeth"]
+	path = lib/liteeth
+	url = https://github.com/enjoy-digital/liteeth
+[submodule "lib/liteiclink"]
+	path = lib/liteiclink
+	url = https://github.com/enjoy-digital/liteiclink
+[submodule "lib/litescope"]
+	path = lib/litescope
+	url = https://github.com/enjoy-digital/litescope
+[submodule "lib/litex"]
+	path = lib/litex
+	url = https://github.com/enjoy-digital/litex

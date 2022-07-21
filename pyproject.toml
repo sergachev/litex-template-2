@@ -17,6 +17,9 @@ pythondata-software-picolibc = "*"
 pythondata-software-compiler-rt = "*"
 meson = "*"
 pythondata-misc-tapcfg = "*"
+pythondata-cpu-cva6 = {path = "lib/pythondata-cpu-cva6", develop = true}
+pythondata-cpu-rocket = {path = "lib/pythondata-cpu-rocket", develop = true}
+litex_verilog_axi_test = {path = "lib/litex_verilog_axi_test", develop = true}
 
 [tool.poetry.dev-dependencies]
 

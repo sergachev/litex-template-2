@@ -13,3 +13,12 @@
 [submodule "lib/litex"]
 	path = lib/litex
 	url = https://github.com/enjoy-digital/litex
+[submodule "lib/pythondata-cpu-cva6"]
+	path = lib/pythondata-cpu-cva6
+	url = https://github.com/litex-hub/pythondata-cpu-cva6.git
+[submodule "lib/pythondata-cpu-rocket"]
+	path = lib/pythondata-cpu-rocket
+	url = https://github.com/litex-hub/pythondata-cpu-rocket.git
+[submodule "lib/litex_verilog_axi_test"]
+	path = lib/litex_verilog_axi_test
+	url = https://github.com/enjoy-digital/litex_verilog_axi_test.git

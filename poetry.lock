@@ -106,6 +106,19 @@ type = "directory"
 url = "lib/litex"
 
 [[package]]
+name = "litex-verilog-axi-test"
+version = "0.0.0"
+description = "LiteX Wrappers around Alex Forenchich's Verilog-AXI."
+category = "main"
+optional = false
+python-versions = "~=3.6"
+develop = true
+
+[package.source]
+type = "directory"
+url = "lib/litex_verilog_axi_test"
+
+[[package]]
 name = "meson"
 version = "0.63.0"
 description = "A high performance build system"
@@ -139,6 +152,32 @@ python-versions = "*"
 
 [package.extras]
 cp2110 = ["hidapi"]
+
+[[package]]
+name = "pythondata-cpu-cva6"
+version = "4.2.0.post411"
+description = "Python module containing system_verilog files for CVA6 cpu."
+category = "main"
+optional = false
+python-versions = ">=3.5"
+develop = true
+
+[package.source]
+type = "directory"
+url = "lib/pythondata-cpu-cva6"
+
+[[package]]
+name = "pythondata-cpu-rocket"
+version = "0.0.post7146"
+description = "Python module containing verilog files for Rocket cpu."
+category = "main"
+optional = false
+python-versions = ">=3.5"
+develop = true
+
+[package.source]
+type = "directory"
+url = "lib/pythondata-cpu-rocket"
 
 [[package]]
 name = "pythondata-cpu-vexriscv"
@@ -214,7 +253,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "78630fd433843764dad7dc659cac0acbdb8735997098a8c0600b9d5512da4ea4"
+content-hash = "a34599ed9d5a395329b8e09f6d893b1860aa65fd3ccd855efecbeae857cff7c2"
 
 [metadata.files]
 certifi = [
@@ -238,6 +277,7 @@ liteeth = []
 liteiclink = []
 litescope = []
 litex = []
+litex-verilog-axi-test = []
 meson = [
     {file = "meson-0.63.0-py3-none-any.whl", hash = "sha256:399f2ca3181ef257fe3adb2deaff46bc19435cb8b1e883f26db831ce32139820"},
     {file = "meson-0.63.0.tar.gz", hash = "sha256:3b51d451744c2bc71838524ec8d96cd4f8c4793d5b8d5d0d0a9c8a4f7c94cd6f"},
@@ -249,6 +289,8 @@ pyserial = [
     {file = "pyserial-3.5-py2.py3-none-any.whl", hash = "sha256:c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0"},
     {file = "pyserial-3.5.tar.gz", hash = "sha256:3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb"},
 ]
+pythondata-cpu-cva6 = []
+pythondata-cpu-rocket = []
 pythondata-cpu-vexriscv = [
     {file = "pythondata-cpu-vexriscv-1.0.1.post407.tar.gz", hash = "sha256:b072704f1ece7763da247344518c833b6837b1594627c29c7a2d794e75c2dc29"},
     {file = "pythondata_cpu_vexriscv-1.0.1.post407-py3-none-any.whl", hash = "sha256:8fbdd9ee58ab2300343846e12a70e8f8f882eced13456c359a6b65a442ce0fbc"},

@@ -22,3 +22,6 @@
 [submodule "lib/litex_verilog_axi_test"]
 	path = lib/litex_verilog_axi_test
 	url = https://github.com/enjoy-digital/litex_verilog_axi_test.git
+[submodule "lib/openc906"]
+	path = lib/openc906
+	url = https://github.com/Icenowy/openc906.git

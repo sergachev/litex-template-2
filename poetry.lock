@@ -241,6 +241,14 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "pyvcd"
+version = "0.3.0"
+description = "Python VCD file support"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "pyyaml"
 version = "6.0"
 description = "YAML parser and emitter for Python"
@@ -282,7 +290,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "c7c20e6a68ed9fef2a0206f16a2095ee984cabe7700a79ca963552815291a04a"
+content-hash = "ea5d854d450e093100e2b3c0ec5a9851ef456abc659e1930def20d7d0511fdb1"
 
 [metadata.files]
 certifi = [
@@ -342,6 +350,10 @@ pythondata-software-compiler-rt = [
 pythondata-software-picolibc = [
     {file = "pythondata-software-picolibc-1.7.7.post158.tar.gz", hash = "sha256:a497fe93bf36b9148e263fa2aa8750b2668a597f86266f6abd272babc52f2b1b"},
     {file = "pythondata_software_picolibc-1.7.7.post158-py3-none-any.whl", hash = "sha256:b5229490970211241ccc1583aef23f5fcccb15fe0a39369ae42b51e36427792e"},
+]
+pyvcd = [
+    {file = "pyvcd-0.3.0-py2.py3-none-any.whl", hash = "sha256:971dfe5a3e68663115c6edf3f0b611ff9e8427513db16281eb4516ebcd65a336"},
+    {file = "pyvcd-0.3.0.tar.gz", hash = "sha256:ec4d9198bd20f9e07d78f6558ff8bcd45b172ee332e7e8a4588727eeb6a362bc"},
 ]
 pyyaml = [
     {file = "PyYAML-6.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:d4db7c7aef085872ef65a8fd7d6d09a14ae91f691dec3e87ee5ee0539d516f53"},

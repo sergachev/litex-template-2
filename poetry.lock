@@ -76,6 +76,22 @@ type = "directory"
 url = "lib/liteiclink"
 
 [[package]]
+name = "litepcie"
+version = "0.0.0"
+description = "Small footprint and configurable PCIe core"
+category = "main"
+optional = false
+python-versions = "~=3.6"
+develop = true
+
+[package.dependencies]
+pyyaml = "*"
+
+[package.source]
+type = "directory"
+url = "lib/litepcie"
+
+[[package]]
 name = "litescope"
 version = "0.0.0"
 description = "Small footprint and configurable embedded FPGA logic analyzer core"
@@ -104,6 +120,19 @@ requests = "*"
 [package.source]
 type = "directory"
 url = "lib/litex"
+
+[[package]]
+name = "litex-boards"
+version = "0.0.0"
+description = "LiteX supported boards"
+category = "main"
+optional = false
+python-versions = "~=3.6"
+develop = true
+
+[package.source]
+type = "directory"
+url = "lib/litex-boards"
 
 [[package]]
 name = "litex-verilog-axi-test"
@@ -253,7 +282,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "a34599ed9d5a395329b8e09f6d893b1860aa65fd3ccd855efecbeae857cff7c2"
+content-hash = "c7c20e6a68ed9fef2a0206f16a2095ee984cabe7700a79ca963552815291a04a"
 
 [metadata.files]
 certifi = [
@@ -275,8 +304,10 @@ idna = [
 litedram = []
 liteeth = []
 liteiclink = []
+litepcie = []
 litescope = []
 litex = []
+litex-boards = []
 litex-verilog-axi-test = []
 meson = [
     {file = "meson-0.63.0-py3-none-any.whl", hash = "sha256:399f2ca3181ef257fe3adb2deaff46bc19435cb8b1e883f26db831ce32139820"},

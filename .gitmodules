@@ -25,3 +25,9 @@
 [submodule "lib/openc906"]
 	path = lib/openc906
 	url = https://github.com/Icenowy/openc906.git
+[submodule "lib/litepcie"]
+	path = lib/litepcie
+	url = https://github.com/enjoy-digital/litepcie
+[submodule "lib/litex-boards"]
+	path = lib/litex-boards
+	url = https://github.com/litex-hub/litex-boards

@@ -8,9 +8,11 @@ authors = ["Ilia Sergachev <ilia@sergachev.ch>"]
 python = "^3.10"
 litex = {path = "lib/litex", develop = true}
 litedram = {path = "lib/litedram", develop = true}
+litepcie = {path = "lib/litepcie", develop = true}
 liteeth = {path = "lib/liteeth", develop = true}
 liteiclink = {path = "lib/liteiclink", develop = true}
 litescope = {path = "lib/litescope", develop = true}
+litex-boards = {path = "lib/litex-boards", develop = true}
 migen = "*"
 pythondata-cpu-vexriscv = "*"
 pythondata-software-picolibc = "*"
